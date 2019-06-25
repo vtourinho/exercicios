@@ -25,7 +25,7 @@ export default class App extends Component {
         <Simples texto='Flexivel!!' />
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-        <Text style={styles.welcome}>Agora vai sim!</Text>
+        <Text style={styles.welcome}>Agora vai com Git!</Text>
       </View>
     );
   }
