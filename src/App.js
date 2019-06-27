@@ -9,6 +9,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import Simples from './Componentes/Simples'
+import { Inverter } from "./Componentes/Multi"
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -26,6 +27,7 @@ export default class App extends Component {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
         <Text style={styles.welcome}>Agora vai com Git!</Text>
+        <Inverter texto='React Nativo!' />
       </View>
     );
   }
